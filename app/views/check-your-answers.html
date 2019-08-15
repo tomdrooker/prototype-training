@@ -15,6 +15,22 @@
       <h1 class="govuk-heading-xl">Check your answers before sending your application</h1>
 
       <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Aged over 18
+          </dt>
+          <dd class="govuk-summary-list__value">
+            {{ data['over-18'] }}
+          </dd>
+          <dd class="govuk-summary-list__actions">
+            <a href="./juggling-balls">
+              Change
+              <span class="govuk-visually-hidden">Number of balls you can juggle</span>
+            </a>
+          </dd>
+        </div>
+
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__key">
             Number of balls you can juggle
